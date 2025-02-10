@@ -1,0 +1,13 @@
+Loaded 1 valid graphs.
+Bug file id: 5e85ba53
+Performing initial feedback checks...
+Recorded first occurrence of 'Results of default and recursive are different for a graph!--Results of recursive and kosaraju are different for a graph!--Results of recursive and igraph are different for a graph!' at 6121.9351069927216 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 25274296
+There were 1 graphs saved in the corpus.
+Time spent: 119.996 minutes.
+Exception: {}
+Total Bugs Found:
+Results of default and recursive are different for a graph!--Results of recursive and kosaraju are different for a graph!--Results of recursive and igraph are different for a graph!: 3
+Checking completed.

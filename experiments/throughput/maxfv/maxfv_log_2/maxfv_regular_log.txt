@@ -1,0 +1,15 @@
+Loaded 1 valid graphs.
+Bug file id: 31e3b4aa
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+Recorded first occurrence of 'Discrepancy: Results of edmonds_karp and igraph are different for a graph!--Results of shortest_augmenting_path and igraph are different for a graph!--Results of preflow_push and igraph are different for a graph!--Results of dinitz and igraph are different for a graph!--Results of boykov_kolmogorov and igraph are different for a graph!' at 19.70776391029358 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 139032
+There were 1793 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {}
+Total Bugs Found:
+Discrepancy: Results of edmonds_karp and igraph are different for a graph!--Results of shortest_augmenting_path and igraph are different for a graph!--Results of preflow_push and igraph are different for a graph!--Results of dinitz and igraph are different for a graph!--Results of boykov_kolmogorov and igraph are different for a graph!: 19
+Checking completed.
+

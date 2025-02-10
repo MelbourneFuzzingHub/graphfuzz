@@ -1,0 +1,24 @@
+Loaded 1 valid graphs.
+Bug file id: 508a7cf3
+Performing initial feedback checks...
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+5, 0.4082643985748291
+Initial feedback check passed for graph 1.
+90, 1.2648975849151611
+2, 2.0139636993408203
+1, 6.523069620132446
+1, 71.32881283760071
+1, 72.8639132976532
+3, 198.3284833431244
+Recorded first occurrence of 'Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!' at 3640.717634677887 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 8350
+There were 7 graphs saved in the corpus.
+Time spent: 119.997 minutes.
+Exception: {<networkx.classes.digraph.DiGraph object at 0x7fda84a13b80>: 'Negative cycle detected.'}
+Exception graphs saved to /home/iany/GraphFuzz/Log/stpl_corpus_exceptions.pkl
+Total Bugs Found:
+Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!: 7
+Checking completed.

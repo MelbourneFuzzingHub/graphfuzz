@@ -1,0 +1,17 @@
+Loaded 1 valid graphs.
+Bug file id: 42e10ebd
+Performing initial feedback checks...
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+110, 0.31771159172058105
+Initial feedback check passed for graph 1.
+22, 0.6308605670928955
+5, 1.80751371383667
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 19197
+There were 3 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {}
+Total Bugs Found:
+Checking completed.

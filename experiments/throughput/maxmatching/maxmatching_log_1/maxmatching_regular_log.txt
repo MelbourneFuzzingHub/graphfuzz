@@ -1,0 +1,13 @@
+Loaded 1 valid graphs.
+Bug file id: be14922b
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 3788304
+There were 154 graphs saved in the corpus.
+Time spent: 119.996 minutes.
+Exception: {0: "Error: 'int' object has no attribute 'is_directed'", <networkx.classes.graph.Graph object at 0x7f804f58de10>: 'NetworkX Error: Disconnected graph: Ambiguous solution for bipartite sets.', <networkx.classes.graph.Graph object at 0x7f804f58e260>: "NetworkX Error: ('Connectivity is undefined ', 'for the null graph.')", <networkx.classes.graph.Graph object at 0x7f804c1c33a0>: 'NetworkX Error: Graph is not bipartite.'}
+Exception graphs saved to /home/iany/GraphFuzz/Log/max_matching_corpus_exceptions.pkl
+Total Bugs Found:
+Checking completed.

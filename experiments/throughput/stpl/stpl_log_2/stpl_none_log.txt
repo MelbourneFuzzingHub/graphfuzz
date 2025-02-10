@@ -1,0 +1,13 @@
+Loaded 1 valid graphs.
+Bug file id: 57b58e7d
+Performing initial feedback checks...
+Recorded first occurrence of 'Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of bellman_ford_path_length and igraph are different for a graph!' at 555.7862603664398 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 7742758
+There were 1 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {}
+Total Bugs Found:
+Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of bellman_ford_path_length and igraph are different for a graph!: 40
+Checking completed.

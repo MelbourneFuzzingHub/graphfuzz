@@ -1,0 +1,24 @@
+Loaded 1 valid graphs.
+Bug file id: f1abc428
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+88, 0.41367077827453613
+2, 1.8847177028656006
+1, 9.275061845779419
+1, 123.56687927246094
+Recorded first occurrence of 'Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of bellman_ford_path_length and igraph are different for a graph!' at 506.4716124534607 seconds since start.
+3, 1549.8024051189423
+Recorded first occurrence of 'Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!' at 1551.615791153476 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 38606
+There were 622 graphs saved in the corpus.
+Time spent: 120.004 minutes.
+Exception: {<networkx.classes.digraph.DiGraph object at 0x7fdc6dc45450>: "Error: Unknown result type: <class 'float'>", <networkx.classes.digraph.DiGraph object at 0x7fdcb1eaa080>: 'NetworkX Error: Negative cycle detected.', <networkx.classes.digraph.DiGraph object at 0x7fdcb1ce3790>: 'Negative cycle detected.', <networkx.classes.digraph.DiGraph object at 0x7fdc4b8e5210>: 'Timeout Error: Exceeded 30 seconds.'}
+Exception graphs saved to /home/iany/GraphFuzz/Log/stpl_corpus_exceptions.pkl
+Total Bugs Found:
+Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of bellman_ford_path_length and igraph are different for a graph!: 1662
+Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!: 3
+Checking completed.

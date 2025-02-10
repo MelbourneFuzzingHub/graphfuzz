@@ -1,0 +1,21 @@
+Loaded 1 valid graphs.
+Bug file id: 38789f60
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+37, 0.4044630527496338
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+21, 3.4806976318359375
+52, 5.549334287643433
+2, 56.28723478317261
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 20776
+There were 132 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {0: "Error: 'int' object has no attribute 'is_directed'", <networkx.classes.graph.Graph object at 0x7f89974820b0>: 'NetworkX Error: Disconnected graph: Ambiguous solution for bipartite sets.', <networkx.classes.graph.Graph object at 0x7f8997482080>: 'Disconnected graph: Ambiguous solution for bipartite sets.', <networkx.classes.graph.Graph object at 0x7f89d4468520>: 'NetworkX Error: Graph is not bipartite.', <networkx.classes.graph.Graph object at 0x7f89d4468a30>: 'Graph is not bipartite.', <networkx.classes.graph.Graph object at 0x7f89d446b160>: "NetworkX Error: ('Connectivity is undefined ', 'for the null graph.')", <networkx.classes.graph.Graph object at 0x7f89d21625c0>: "('Connectivity is undefined ', 'for the null graph.')"}
+Exception graphs saved to /home/iany/GraphFuzz/Log/max_matching_corpus_exceptions.pkl
+Total Bugs Found:
+Checking completed.

@@ -1,0 +1,19 @@
+Loaded 1 valid graphs.
+Bug file id: a5032d47
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+14, 0.5285215377807617
+6, 1.3136539459228516
+Recorded first occurrence of 'Results of NetworkX and iGraph are different for a graph!' at 1.313871145248413 seconds since start.
+17, 1.730771541595459
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 10968
+There were 551 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {}
+Total Bugs Found:
+Results of NetworkX and iGraph are different for a graph!: 17576
+Checking completed.

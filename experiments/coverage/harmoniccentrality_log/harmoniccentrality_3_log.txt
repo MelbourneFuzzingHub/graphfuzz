@@ -1,0 +1,20 @@
+Loaded 1 valid graphs.
+Bug file id: 9b4d7a88
+Performing initial feedback checks...
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+56, 0.8798003196716309
+Initial feedback check passed for graph 1.
+14, 2.366330862045288
+2, 3.8261563777923584
+1, 5.320418834686279
+1, 133.828875541687
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 8420
+There were 5 graphs saved in the corpus.
+Time spent: 119.989 minutes.
+Exception: {<networkx.classes.graph.Graph object at 0x7ff3db239630>: "('Contradictory paths found:', 'negative weights?')"}
+Exception graphs saved to /home/iany/GraphFuzz/Log/hc_corpus_exceptions.pkl
+Total Bugs Found:
+Checking completed.

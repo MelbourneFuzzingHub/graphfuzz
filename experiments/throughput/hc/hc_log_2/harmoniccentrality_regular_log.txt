@@ -1,0 +1,13 @@
+Loaded 1 valid graphs.
+Bug file id: c43b9af2
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 176407
+There were 447 graphs saved in the corpus.
+Time spent: 119.997 minutes.
+Exception: {<networkx.classes.graph.Graph object at 0x7f1a80069c90>: "Error: ('Contradictory paths found:', 'negative weights?')"}
+Exception graphs saved to /home/iany/GraphFuzz_v2/Log/hc_corpus_exceptions.pkl
+Total Bugs Found:
+Checking completed.

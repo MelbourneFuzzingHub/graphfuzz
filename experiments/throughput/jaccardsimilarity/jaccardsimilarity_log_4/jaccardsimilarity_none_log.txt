@@ -1,0 +1,13 @@
+Loaded 1 valid graphs.
+Bug file id: a0eac353
+Performing initial feedback checks...
+Recorded first occurrence of 'Results of NetworkX and iGraph are different for a graph!' at 0.047682762145996094 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 1898369
+There were 1 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {}
+Total Bugs Found:
+Results of NetworkX and iGraph are different for a graph!: 36874
+Checking completed.

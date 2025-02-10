@@ -1,0 +1,21 @@
+Loaded 1 valid graphs.
+Bug file id: 0504189c
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+73, 0.27478885650634766
+15, 1.1498780250549316
+1, 1.5559630393981934
+1, 2.3786392211914062
+1, 4.084638833999634
+1, 393.0656108856201
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 12189
+There were 393 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {<networkx.classes.digraph.DiGraph object at 0x7f8997441450>: "Error: Unknown result type: <class 'float'>"}
+Exception graphs saved to /home/iany/GraphFuzz/Log/stpl_corpus_exceptions.pkl
+Total Bugs Found:
+Checking completed.

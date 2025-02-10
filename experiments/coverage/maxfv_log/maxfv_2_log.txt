@@ -1,0 +1,21 @@
+Loaded 1 valid graphs.
+Performing initial feedback checks...
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+5, 0.8304417133331299
+Initial feedback check passed for graph 1.
+149, 1.6286094188690186
+113, 2.3618154525756836
+12, 4.548680305480957
+23, 15.707892656326294
+1, 222.23161506652832
+Recorded first occurrence of 'Discrepancy: Results of edmonds_karp and igraph are different for a graph!--Results of shortest_augmenting_path and igraph are different for a graph!--Results of preflow_push and igraph are different for a graph!--Results of dinitz and igraph are different for a graph!--Results of boykov_kolmogorov and igraph are different for a graph!' at 228.05693769454956 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 8553
+There were 6 graphs saved in the corpus.
+Time spent: 119.992 minutes.
+Exception: {}
+Total Bugs Found:
+Discrepancy: Results of edmonds_karp and igraph are different for a graph!--Results of shortest_augmenting_path and igraph are different for a graph!--Results of preflow_push and igraph are different for a graph!--Results of dinitz and igraph are different for a graph!--Results of boykov_kolmogorov and igraph are different for a graph!: 1
+Checking completed.

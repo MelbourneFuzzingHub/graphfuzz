@@ -1,0 +1,12 @@
+Loaded 1 valid graphs.
+Bug file id: 299892b1
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 3078943
+There were 299 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {}
+Total Bugs Found:
+Checking completed.

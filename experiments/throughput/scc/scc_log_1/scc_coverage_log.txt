@@ -1,0 +1,19 @@
+Loaded 1 valid graphs.
+Bug file id: 14cbf396
+Performing initial feedback checks...
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+119, 0.2765500545501709
+Initial feedback check passed for graph 1.
+5, 0.5833108425140381
+6, 5.9774250984191895
+Recorded first occurrence of 'Results of default and recursive are different for a graph!--Results of recursive and kosaraju are different for a graph!--Results of recursive and igraph are different for a graph!' at 2993.9326691627502 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 40011
+There were 3 graphs saved in the corpus.
+Time spent: 119.996 minutes.
+Exception: {}
+Total Bugs Found:
+Results of default and recursive are different for a graph!--Results of recursive and kosaraju are different for a graph!--Results of recursive and igraph are different for a graph!: 3
+Checking completed.

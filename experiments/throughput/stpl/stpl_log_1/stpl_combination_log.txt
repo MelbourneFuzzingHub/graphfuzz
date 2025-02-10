@@ -1,0 +1,23 @@
+Loaded 1 valid graphs.
+Bug file id: ad560cea
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+/home/iany/.local/lib/python3.10/site-packages/coverage/inorout.py:519: CoverageWarning: Module networkx was previously imported, but not measured (module-not-measured)
+  self.warn(msg, slug="module-not-measured")
+73, 0.281109094619751
+15, 1.6112422943115234
+1, 4.092591285705566
+2, 6.135712385177612
+1, 10.68518877029419
+3, 952.5521824359894
+Recorded first occurrence of 'Results of bellman_ford_path_length and igraph are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!' at 1887.8418929576874 seconds since start.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 16766
+There were 519 graphs saved in the corpus.
+Time spent: 120.007 minutes.
+Exception: {<networkx.classes.digraph.DiGraph object at 0x7fbe65f3d420>: "Error: Unknown result type: <class 'float'>", <networkx.classes.digraph.DiGraph object at 0x7fbeab08b8b0>: 'NetworkX Error: Negative cycle detected.', <networkx.classes.digraph.DiGraph object at 0x7fbe5adf6ce0>: 'Timeout Error: Exceeded 15 seconds.'}
+Exception graphs saved to /home/iany/GraphFuzz/Log/stpl_corpus_exceptions.pkl
+Total Bugs Found:
+Results of bellman_ford_path_length and igraph are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!: 67
+Checking completed.

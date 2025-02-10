@@ -1,0 +1,22 @@
+Loaded 1 valid graphs.
+Bug file id: f3525786
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 2817743
+There were 299 graphs saved in the corpus.
+Time spent: 120.02 minutes.
+Exception: {}
+Total Bugs Found:
+Checking completed.
+Error occurred while processing graph at 7200.146437883377 seconds.
+Fuzzing stopped. Good bye!
+Finalizing process...
+count 2817743
+There were 299 graphs saved in the corpus.
+Time spent: 120.02 minutes.
+Exception: {<networkx.classes.graph.Graph object at 0x7f3f9893dd50>: 'Error: cannot release un-acquired lock'}
+Exception graphs saved to /home/iany/GraphFuzz/Log/bcc_corpus_exceptions.pkl
+Total Bugs Found:
+Checking completed.

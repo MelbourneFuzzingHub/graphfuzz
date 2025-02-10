@@ -1,0 +1,80 @@
+Loaded 1 valid graphs.
+Bug file id: 53cbc80e
+Performing initial feedback checks...
+Initial feedback check passed for graph 1.
+Recorded first occurrence of 'Results of bellman_ford_path_length and igraph are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!' at 1.6101982593536377 seconds since start.
+Recorded first occurrence of 'Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of bellman_ford_path_length and igraph are different for a graph!' at 1.6879165172576904 seconds since start.
+Recorded first occurrence of 'Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!' at 97.7036569408762536 seconds since start.
+Timeout occurred while processing graph at 4926.607302188873 seconds.
+Timeout occurred while processing graph at 5015.6222405433655 seconds.
+Timeout occurred while processing graph at 5045.817974328995 seconds.
+Timeout occurred while processing graph at 5076.067510128021 seconds.
+Timeout occurred while processing graph at 5255.037133693695 seconds.
+Timeout occurred while processing graph at 5285.207437515259 seconds.
+Timeout occurred while processing graph at 5315.701699256897 seconds.
+Timeout occurred while processing graph at 5345.739809036255 seconds.
+Timeout occurred while processing graph at 5406.242995738983 seconds.
+Timeout occurred while processing graph at 5437.15133190155 seconds.
+Timeout occurred while processing graph at 5467.5090754032135 seconds.
+Timeout occurred while processing graph at 5498.644351482391 seconds.
+Timeout occurred while processing graph at 5529.4802713394165 seconds.
+Timeout occurred while processing graph at 5560.678661108017 seconds.
+Timeout occurred while processing graph at 5590.901129484177 seconds.
+Timeout occurred while processing graph at 5622.134291172028 seconds.
+Timeout occurred while processing graph at 5654.152601718903 seconds.
+Timeout occurred while processing graph at 5685.530022859573 seconds.
+Timeout occurred while processing graph at 5717.472385644913 seconds.
+Timeout occurred while processing graph at 5749.092985868454 seconds.
+Timeout occurred while processing graph at 5780.9303913116455 seconds.
+Timeout occurred while processing graph at 5813.51757144928 seconds.
+Timeout occurred while processing graph at 5847.5300850868225 seconds.
+Timeout occurred while processing graph at 5879.93251657486 seconds.
+Timeout occurred while processing graph at 5912.38306760788 seconds.
+Timeout occurred while processing graph at 5944.702906131744 seconds.
+Timeout occurred while processing graph at 5976.9605593681335 seconds.
+Timeout occurred while processing graph at 6009.779462099075 seconds.
+Timeout occurred while processing graph at 6042.035666704178 seconds.
+Timeout occurred while processing graph at 6074.547572612762 seconds.
+Timeout occurred while processing graph at 6107.253213167191 seconds.
+Timeout occurred while processing graph at 6139.730095624924 seconds.
+Timeout occurred while processing graph at 6172.613857746124 seconds.
+Timeout occurred while processing graph at 6206.42946100235 seconds.
+Timeout occurred while processing graph at 6240.006247282028 seconds.
+Timeout occurred while processing graph at 6273.8459458351135 seconds.
+Timeout occurred while processing graph at 6308.156257390976 seconds.
+Timeout occurred while processing graph at 6342.313823461533 seconds.
+Timeout occurred while processing graph at 6376.230383872986 seconds.
+Timeout occurred while processing graph at 6410.459486484528 seconds.
+Timeout occurred while processing graph at 6444.961987018585 seconds.
+Timeout occurred while processing graph at 6478.642752408981 seconds.
+Timeout occurred while processing graph at 6513.190001010895 seconds.
+Timeout occurred while processing graph at 6547.167883634567 seconds.
+Timeout occurred while processing graph at 6581.456941843033 seconds.
+Timeout occurred while processing graph at 6615.122766971588 seconds.
+Timeout occurred while processing graph at 6650.471872329712 seconds.
+Timeout occurred while processing graph at 6685.408898353577 seconds.
+Timeout occurred while processing graph at 6723.261544466019 seconds.
+Timeout occurred while processing graph at 6759.40353512764 seconds.
+Timeout occurred while processing graph at 6794.01641869545 seconds.
+Timeout occurred while processing graph at 6829.483986854553 seconds.
+Timeout occurred while processing graph at 6866.174020051956 seconds.
+Timeout occurred while processing graph at 6901.36717581749 seconds.
+Timeout occurred while processing graph at 6937.875465631485 seconds.
+Timeout occurred while processing graph at 6973.46452665329 seconds.
+Timeout occurred while processing graph at 7009.064407110214 seconds.
+Timeout occurred while processing graph at 7044.505874156952 seconds.
+Timeout occurred while processing graph at 7080.958014965057 seconds.
+Timeout occurred while processing graph at 7117.018372774124 seconds.
+Timeout occurred while processing graph at 7152.552192687988 seconds.
+Ctrl+C pressed, finalizing...
+Finalizing process...
+count 27876
+There were 914 graphs saved in the corpus.
+Time spent: 120.002 minutes.
+Exception: {<networkx.classes.digraph.DiGraph object at 0x7fd73db31450>: "Error: Unknown result type: <class 'float'>", <networkx.classes.digraph.DiGraph object at 0x7fd782d86770>: 'NetworkX Error: Negative cycle detected.', <networkx.classes.digraph.DiGraph object at 0x7fd709527460>: 'Timeout Error: Exceeded 30 seconds.'}
+Exception graphs saved to /home/iany/GraphFuzz/Log/stpl_corpus_exceptions.pkl
+Total Bugs Found:
+Results of bellman_ford_path_length and igraph are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!: 1870
+Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of bellman_ford_path_length and igraph are different for a graph!: 2540
+Results of bellman_ford_path_length and goldberg_radzik are different for a graph!--Results of goldberg_radzik and igraph are different for a graph!: 27
+Checking completed.
